@@ -33,7 +33,7 @@ def getProducts(request):
 def getProduct(request, pk):
     product = None
     for i in products:
-        if i ['_id'] == pk:
+        if i['_id'] == pk:
             product = i
             break
         

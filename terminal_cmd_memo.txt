@@ -16,7 +16,7 @@ Section 2: Starting the Frontend
         07 - execute " npm start "
 
         08 - check if the local server is activated.
-            close the server " ^c "
+            close the server " ctrl + c "
 
 -------------------------------------------------------------------------------------
 
@@ -45,7 +45,7 @@ Section 3: Serving & Fetching Data from Django
 
         08 - check if the local server is properly running
             execute " python manage.py runserver "
-                close the server " ^c "
+                close the server " ctrl + c "
 
         09 - create the application (name here is " base ")
             execute " python manage.py startapp base "
@@ -54,3 +54,21 @@ Section 3: Serving & Fetching Data from Django
             execute " pip install djangorestframework "
 
 -------------------------------------------------------------------------------------
+
+Section 3: Serving & Fetching Data from Django
+    ---> Fetching Data
+
+        01 - terminal node, go to frontend
+            " cd frontend "
+
+        02 - insttall axios
+            " npm install axios "
+
+        03 - start server
+            " npm start "
+
+        04 - terminal python
+            " pip install django-cors-headers "
+
+        05 - start the python server again
+            " python manage.py runserver "
