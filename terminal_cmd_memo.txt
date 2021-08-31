@@ -72,3 +72,35 @@ Section 3: Serving & Fetching Data from Django
 
         05 - start the python server again
             " python manage.py runserver "
+
+-------------------------------------------------------------------------------------
+
+Section 3: Serving & Fetching Data from Django
+    ---> Database Setup & Admin Panel
+
+        01 - taking care of the migrations
+            be sure to be in the Backend folder
+            " python manage.py migrate "
+
+        02 - check if the migrations went well
+            " python manage.py migrate "
+            check the message
+
+        03 - create the super user (admin)
+            " python manage.py createsuperuser "
+
+        04 - create a .txt file outside of the project
+            in this file, save your admin IDs (name, mail and password)
+
+-------------------------------------------------------------------------------------
+
+Section 3: Serving & Fetching Data from Django
+    ---> Modeling our Data
+
+        01 - Create your database models
+
+        02 - Do the migrations
+            " python manage.py makemigrations "
+
+        03 - Apply migrations
+            " python manage.py  migrate "
