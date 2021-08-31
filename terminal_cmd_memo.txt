@@ -1,0 +1,56 @@
+Section 2: Starting the Frontend
+    ---> React Setup
+
+        01 - create the project folder (" ecommerce " in this case)
+
+        02 - open the folder with cmd
+
+        03 - inside the folder execute " npx create-react-app frontend "
+
+        04 - wait during the installation
+
+        05 - close cmd and use vscode terminal
+
+        06 - get inside the frontend folder
+
+        07 - execute " npm start "
+
+        08 - check if the local server is activated.
+            close the server " ^c "
+
+-------------------------------------------------------------------------------------
+
+Section 3: Serving & Fetching Data from Django
+    ---> Building the Backend
+
+        01 - with the terminal, get inside the " ecommerce " folder (not inside the " frontend folder)
+
+        02 - install the virtual environnement
+            execute " pip install virtualenv "
+
+        03 - create the virtual environnement (name here is " myenv ")
+            execute " virtualenv myenv "
+
+        04 - activate the virtual environnement
+            execute " myenv\scripts\activate "
+
+        05 - install the PYTHON framework DJANGO
+            execute " pip install django "
+
+        06 - create the backend folder (name here is " backend ")
+            execute " django-admin startproject backend "
+
+        07 - get inside the backend folder
+            execute " cd backend "
+
+        08 - check if the local server is properly running
+            execute " python manage.py runserver "
+                close the server " ^c "
+
+        09 - create the application (name here is " base ")
+            execute " python manage.py startapp base "
+
+        10 - install the DJANGO REST framework
+            execute " pip install djangorestframework "
+
+-------------------------------------------------------------------------------------
