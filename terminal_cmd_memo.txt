@@ -104,3 +104,18 @@ Section 3: Serving & Fetching Data from Django
 
         03 - Apply migrations
             " python manage.py  migrate "
+
+-------------------------------------------------------------------------------------
+
+Section 3: Serving & Fetching Data from Django
+    ---> Product Image Field
+
+        01 - to manage pictures isie the Database
+            get in the backend folder
+            " pip install pillow "
+
+        02 - Do the migrations
+            " python manage.py makemigrations "
+
+        03 - Apply migrations
+            " python manage.py  migrate "
