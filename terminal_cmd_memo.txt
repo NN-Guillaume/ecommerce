@@ -152,14 +152,6 @@ Section 4: Implementing Redux for State Management
         01 - frontend folder
         " npm install redux react-redux redux-thunk redux-devtools-extension "
 
--------------------------------------------------------------------------------------
-
-Section 4: Implementing Redux for State Management
-    ---> 
-
-        01 - folder
-        "  "
-
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 ########################################################################################################################
                                             S  E  C  T  I  O  N      5
